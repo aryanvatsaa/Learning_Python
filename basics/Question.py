@@ -1,4 +1,4 @@
-# 1. WAP TO CALCULATE AREA O A TRIANGLE USING HERON'S FORMULA.
+# 1. WAP TO CALCULATE AREA OF A TRIANGLE USING HERON'S FORMULA.
 
 # a = float(input("Enter the 1st side of a triangle : "))
 # b = float(input("Enter the 2nd side of a triangle : "))
