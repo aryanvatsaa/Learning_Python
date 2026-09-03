@@ -86,3 +86,24 @@
 #         print(el)
 # list = ["Aryan", "Vatsa", 45]
 # show(list)
+
+#Q9. SHUFFLING A DECK OF CARDS USING RECURSION.
+# import itertools, random
+# deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))  #forming deck of cards
+# random.shuffle(deck)                                   #shuffling cards
+# print("Your Combination of cards is : ")               #printing shuffled five cards
+# for i in range(5):
+#     print(deck[i][0], "of", deck[i][1])
+
+#Q10. TOWER OF HANOI
+# def hanoi(n, A, B, C):                   #A,B AND C ARE POLES
+#     if n>0:
+#         hanoi(n - 1, A, C, B)
+#         if A:
+#             C.append(A.pop())
+#         hanoi(n - 1, B, A, C)
+# A = [1,2,3]                               # THREE RINGS ON THE 1ST POLE
+# C = []
+# B = []                                    # ALL THREE RINGS SHOULD MOVE TO 3RD POLE IN SAME ORDER AS 1ST POLE.
+# hanoi(len(A),A,B,C)
+# print(A,B,C)
