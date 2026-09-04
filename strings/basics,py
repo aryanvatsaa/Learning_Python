@@ -1,0 +1,29 @@
+#Concatenate two strings using + operator
+# str1 = "Hello"
+# str2 = "World"
+# str3 = str1 + str2
+# print(str3)
+
+#Concatenate using += operator
+# str = "Hello, "
+# name = input("\n Enter your name : ")
+# str += name
+# str += ". Welcome to Python Programming."
+# print(str)
+
+#WAP TO REPEAT A STRING USING * OPERATOR
+# str = "Hello "
+# print(str * 3)
+
+# WAP TO DEONSTRATE STRING REFRENCES USING THE id() FUNCTION.
+# str1 = "Hello "
+# print("Str1 is : ", str1)
+# print("ID of str1 is : ", id(str1))
+
+# str2 = "World"
+# print("Str2 is : ", str2)
+# print("ID of str2 is : ", id(str2))
+
+# str1 += str2
+# print("Str1 after concatenation is : ", str1)
+# print("ID of str1 is : ", id(str1))
